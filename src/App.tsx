@@ -1,10 +1,13 @@
-import { Header } from 'Layout/Header';
-import React from 'react';
+import React from 'react'
+import { BrowserRouter } from "react-router-dom"
+import { Router } from 'router/router';
 
 
-function App() {
+const App = (): JSX.Element => {
   return (
-    <Header />
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   );
 }
 
