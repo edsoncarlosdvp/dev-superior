@@ -1,5 +1,6 @@
+import { Pagination } from 'components/Pagination'
 import React from 'react'
 
 export const ListingPage = (): JSX.Element => {
-    return <h1>Page Listing</h1>
+    return <Pagination />
 }
