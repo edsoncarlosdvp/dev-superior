@@ -1,9 +1,10 @@
+import { Header } from 'Layout/Header';
 import React from 'react';
 
 
 function App() {
   return (
-    <h1>Home</h1>
+    <Header />
   );
 }
 
